@@ -6,3 +6,9 @@ $(window).scroll(function () {
            $('.navbar').removeClass('sticky');
     }
 })
+//animate gioi thieu sach
+let nCount = selector => {
+    $(selector).each(function () {
+        $(this).animate
+    })
+}
